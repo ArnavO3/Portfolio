@@ -38,8 +38,8 @@ const Contact = () => {
           <br />
           Sector 77,
           <br />
-          NOIDA, Uttar Pradesh <br />
-          INDIA
+          Noida, Uttar Pradesh <br />
+          India
           <br />
           <br />
           <span>arnavtiwari2003@gmail.com</span>
@@ -48,7 +48,7 @@ const Contact = () => {
           <MapContainer center={[28.57227, 77.378982]} zoom={14}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[28.57227, 77.378982]}>
-              <Popup>Hi! :D</Popup>
+              <Popup>Hi! 😉</Popup>
             </Marker>
           </MapContainer>
         </div>

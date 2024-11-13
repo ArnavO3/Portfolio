@@ -276,18 +276,14 @@ body {
   font-weight: bold;
   letter-spacing: 0.025rem;
   text-transform: uppercase;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
   border-radius: 5vh;
   text-decoration: none;
 
   &:hover {
-    background-color: lighten(black, 5%);
-  }
-
-  &:focus {
-    outline: 0.25vh solid rgba(201, 17, 247, 0.732);
-    outline-offset: 3px;
+    scale: 1.1;
+    text-decoration: underline;
   }
 }
 
